@@ -9,8 +9,8 @@ import Foundation
 import UIKit
 
 class TableViewCell: UITableViewCell {
-    @IBOutlet weak var descriptionMovieLabel: UILabel!
-    
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var voteAverageLabel: UILabel!
     @IBOutlet weak var imageLabel: UIImageView!
     @IBOutlet weak var titleMovieLabel: UILabel!
 }

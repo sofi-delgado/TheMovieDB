@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct DCMovies: Decodable{
+struct MoviesList: Decodable{
     let createdBy: String
     let description: String
     let favoriteCount: Int

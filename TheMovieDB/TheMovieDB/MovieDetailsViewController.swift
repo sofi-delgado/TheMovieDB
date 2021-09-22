@@ -12,27 +12,37 @@ class MovieDetails: UIViewController {
     
     @IBOutlet weak var imageMovieLabel: UIImageView!
     @IBOutlet weak var originalTitleLabel: UILabel!
-    @IBOutlet weak var popularityLabel: UILabel!
     @IBOutlet weak var releaseDateLabel: UILabel!
     @IBOutlet weak var overviewLabel: UILabel!
     @IBOutlet weak var adultLabel: UILabel!
     @IBOutlet weak var languageLabel: UILabel!
-    var imageMovie: String = ""
+    @IBOutlet weak var voteCountLabel: UILabel!
+    @IBOutlet weak var starRatingLabel: UILabel!
+    
+    var imageMovie: UIImage?
     var originalTitle: String = ""
-    var popularityScore: Double = 0
     var date: String = ""
     var overview: String = ""
     var adult: Bool = false
     var language: String = ""
+    var voteCount: Int = 0
+    var starRating: Double = 0.0
+    let rating = StarsRating()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         originalTitleLabel.text = originalTitle
-        popularityLabel.text = "⭐️ \(popularityScore)"
         releaseDateLabel.text = date
         overviewLabel.text = overview
-        adultLabel.text = "+18: \(adult)"
-        languageLabel.text = "Original language: \(language.uppercased())"
+        if adult == true {
+            adultLabel.text = "+18: Yes" }
+        else {
+            adultLabel.text = "+18: No"
+        }
+        languageLabel.text = language.uppercased()
+        imageMovieLabel.image = imageMovie
+        voteCountLabel.text = "🧡 \(voteCount)"
+        starRatingLabel.text = rating.showVoteAverage(voteAverage: starRating)
         
     }
 }

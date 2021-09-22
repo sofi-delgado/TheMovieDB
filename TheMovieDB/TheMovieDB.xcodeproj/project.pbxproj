@@ -18,8 +18,10 @@
 		B7F4178226F260D100FD0D86 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4178126F260D100FD0D86 /* Services.swift */; };
 		B7F4178426F260F600FD0D86 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4178326F260F600FD0D86 /* DataModel.swift */; };
 		B7F4178626F2654800FD0D86 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4178526F2654800FD0D86 /* TableViewCell.swift */; };
-		B7F4178826F2682C00FD0D86 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4178726F2682C00FD0D86 /* DataManager.swift */; };
 		B7F417AC26F4D74500FD0D86 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F417AB26F4D74500FD0D86 /* MovieDetailsViewController.swift */; };
+		B7F417AE26F9049500FD0D86 /* StringRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F417AD26F9049500FD0D86 /* StringRating.swift */; };
+		B7F417B026F9261500FD0D86 /* ImageConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F417AF26F9261500FD0D86 /* ImageConverter.swift */; };
+		B7F417B226FB728300FD0D86 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F417B126FB728300FD0D86 /* Protocols.swift */; };
 		BA9B343B69B732675AC407CF /* Pods_TheMovieDBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBB91BDB35F80439EEFF0C5 /* Pods_TheMovieDBTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,8 +55,10 @@
 		B7F4178126F260D100FD0D86 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		B7F4178326F260F600FD0D86 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		B7F4178526F2654800FD0D86 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		B7F4178726F2682C00FD0D86 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		B7F417AB26F4D74500FD0D86 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		B7F417AD26F9049500FD0D86 /* StringRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringRating.swift; sourceTree = "<group>"; };
+		B7F417AF26F9261500FD0D86 /* ImageConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConverter.swift; sourceTree = "<group>"; };
+		B7F417B126FB728300FD0D86 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		E3DB4A4598B66159E1784BC0 /* Pods_TheMovieDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheMovieDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -111,8 +115,10 @@
 				B7F4178126F260D100FD0D86 /* Services.swift */,
 				B7F4178326F260F600FD0D86 /* DataModel.swift */,
 				B7F4178526F2654800FD0D86 /* TableViewCell.swift */,
-				B7F4178726F2682C00FD0D86 /* DataManager.swift */,
 				B7F417AB26F4D74500FD0D86 /* MovieDetailsViewController.swift */,
+				B7F417AD26F9049500FD0D86 /* StringRating.swift */,
+				B7F417AF26F9261500FD0D86 /* ImageConverter.swift */,
+				B7F417B126FB728300FD0D86 /* Protocols.swift */,
 			);
 			path = TheMovieDB;
 			sourceTree = "<group>";
@@ -314,11 +320,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7F417AC26F4D74500FD0D86 /* MovieDetailsViewController.swift in Sources */,
+				B7F417B026F9261500FD0D86 /* ImageConverter.swift in Sources */,
 				B7F4178426F260F600FD0D86 /* DataModel.swift in Sources */,
+				B7F417B226FB728300FD0D86 /* Protocols.swift in Sources */,
 				02BCD42F26B81F01003F3144 /* MoviesListViewController.swift in Sources */,
 				B7F4178226F260D100FD0D86 /* Services.swift in Sources */,
-				B7F4178826F2682C00FD0D86 /* DataManager.swift in Sources */,
 				B7F4178626F2654800FD0D86 /* TableViewCell.swift in Sources */,
+				B7F417AE26F9049500FD0D86 /* StringRating.swift in Sources */,
 				02BCD42B26B81F01003F3144 /* AppDelegate.swift in Sources */,
 				02BCD42D26B81F01003F3144 /* SceneDelegate.swift in Sources */,
 			);
